@@ -12,7 +12,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.head h3 {
+.head h2 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
@@ -20,21 +20,6 @@
   width: 50rem;
   margin: 0 auto;
   text-align: center;
-  position: relative;
-}
-
-.coin::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  top: 12rem;
-  left: 43%;
-  width: 7rem;
-  height: 0.4rem;
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0.421);
-  border-radius: 50%;
-  opacity: 0.5;
 }
 
 .result {
@@ -69,10 +54,6 @@
   border-radius: 10px;
   text-align: center;
   transition: 0.2s;
-}
-
-.btn:hover {
-  padding: 12px;
 }
 
 @media (max-width: 640px) {
