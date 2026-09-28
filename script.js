@@ -6,6 +6,6 @@ btn.addEventListener("click", function () {
   const random = Math.random() < 0.5 ? "Heads" : "Tails";
   result.textContent = random;
 
-  coin.src = `resources/${random}.svg`;
+  coin.src = `resources/${random.toLowerCase()}.svg`;
   console.log(coin);
 });
